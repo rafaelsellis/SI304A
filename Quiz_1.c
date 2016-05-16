@@ -7,8 +7,8 @@ int main () {
     void Selecao_A(void);
     void Selecao_B(void);
 
-    printf("\n\nOI! SEJA BEM-VINDO AO NOSSO QUIZ DE MITOLOGIA! RESPONDA O TESTE AGORA E DESCUBRA QUAL HEROI DA MITOLOGIA EH VOCE!!!\n\n");
-    printf("PARA CADA PERGUNTA RESPONDA APENAS SIM OU NAO. Para inicar o QUIZ, aperte ENTER. \n");
+    printf("\n\nOI! SEJA BEM-VINDO AO NOSSO QUIZ DE MITOLOGIA! \nRESPONDA O TESTE AGORA E DESCUBRA QUAL HEROI DA MITOLOGIA EH VOCE!!!\n\n");
+    printf("PARA CADA PERGUNTA, RESPONDA APENAS SIM OU NAO. \nPara inicar o QUIZ, aperte ENTER. \n");
     V = getchar();
     fflush(stdin);
 
