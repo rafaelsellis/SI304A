@@ -65,7 +65,7 @@ int main () {
 }
 
 void Selecao_A(void) {
-    printf("Voce se sai melhor trabalhando sozinho do que trabalhando em equipe?? \n(1)SIM. | (2)NAO.\n");
+    printf("Voce se sai melhor trabalhando sozinho do que trabalhando em equipe? \n(1)SIM. | (2)NAO.\n");
     scanf("%d", &R);
         if (R==1) {
             LOKIZEUS=1;
@@ -80,10 +80,10 @@ void Selecao_A(void) {
     printf("Voce prefere improvisar do que gastar tempo criando um plano detalhado? \n(1)SIM. | (2)NAO.\n");
     scanf("%d", &R);
         if (R==1) {
-            Texto ZEUS
+            printf ("VOCE EH ZEUS!!!/n/n");
             R=0; }
         if (R==2) {
-            “Texto LOKI”
+            printf ("VOCE EH LOKI!!!/n/n");
             R=0; }
     fflush(stdin); }
 
@@ -91,9 +91,9 @@ void Selecao_A(void) {
     printf("Voce acha que uma decisao logica eh sempre o melhor, mesmo magoando algumas pessoas? \n(1)SIM. | (2)NAO.\n");
     scanf("%d", &R);
         if (R==1)
-            Texto ODIN_
+            printf ("VOCE EH ODIN!!!/n/n");
         if (R==2)
-            Texto HORUS_
+            printf ("VOCE EH HORUS!!!/n/n");
     fflush(stdin);  }
 }
 
