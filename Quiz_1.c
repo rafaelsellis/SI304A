@@ -1,9 +1,9 @@
 #include <stdio.h>
 int GA, LOKIZEUS, ODINHORUS, LOKI, ZEUS, ODIN, HORUS = 0; /* Grupo A */
 int GB, R, THOROSIRIS,  POSEIDONSETH, THOR, OSIRIS, POSEIDON, SETH = 0;  /* Grupo B */
+char V;
 
 int main () {
-    char V;
     void Selecao_A(void);
     void Selecao_B(void);
 
@@ -100,12 +100,12 @@ void Selecao_A(void) {
     scanf("%d", &R);
         switch (R) {
         	case 1: {
-                	printf ("\n\n******************************\n       VOCE EH ZEUS!!!\n\n******************************\n\n");
+                	printf ("\n\n******************************\n       VOCE EH ZEUS!!!\n\n******************************\n\nZEUS, na mitologia grega, eh o pai dos deuses e dos homens, que exercia a autoridade sobre os deuses olimpicos como um pai sobre sua familia. Zeus eh, como o rei dos deuses, muito orgulhoso e imponente, exige respeito e precedência de todos. Ele eh, por vezes, egocentrico e facilmente insultado. \nCaracteristicas: Imponente, Respeitado, Egoista.\n\n");
                     R = 0; }
                     break;
         	case 2:
                 	{
-                	printf ("\n\n******************************\n       VOCE EH LOKI!!!\n\n******************************\n\n");
+                	printf ("\n\n******************************\n       VOCE EH LOKI!!!\n\n******************************\n\nLOKI eh um deus ou um gigante da mitologia nordica. Deus da trapaça e da travessura, tambem esta ligado a magia e pode assumir a forma que quiser. Eh inteligente, traicoeiro, de pouca confianca. Eh filho de Odin e irmao de Thor. \nCaracteristicas: Inteligente, Astuto e Manipulador.\n\n");
                     R = 0; }
                     break;         }
     fflush(stdin);  }
@@ -116,15 +116,16 @@ void Selecao_A(void) {
     scanf("%d", &R);
         switch (R) {
         	case 1: {
-                	printf ("\n\n******************************\n       VOCE EH ODIN!!!\n\n******************************\n\n");
+                	printf ("\n\n******************************\n       VOCE EH ODIN!!!\n\n******************************\n\nODIN eh considerado o deus mais importante da mitologia nordica. Tambem eh conhecido como 'Pai de Todos' e 'O enviado do Senhor da Guerra'. Eh o deus da sabedoria, da guerra e da morte, embora tambem, em menor escala, da magia, da poesia e da profecia. \nCaracteristicas: Sabio, Lider, Inflexivel.\n\n");
                     R = 0; }
                     break;
         	case 2:
                 	{
-                	printf ("\n\n******************************\n       VOCE EH HORUS!!!\n\n******************************\n\n");
+                	printf ("\n\n******************************\n       VOCE EH HORUS!!!\n\n******************************\n\nHORUS na mitologia egipcia, eh o deus dos ceus. Era filho de Osiris. Tinha cabeca de falcao e os olhos representavam o Sol e a Lua. Matou Seth, tanto por vinganca pela morte do pai Osiris, como pela disputa do comando do Egito. Apos derrotar Seth, tornou-se o rei dos vivos no Egito. \nCaracteristicas: Justo, Altruista, Autoconfiante.\n");
                     R = 0; }
                     break;         }
     fflush(stdin);  }
+    V = getchar();
 }
 
 
@@ -149,17 +150,18 @@ void Selecao_B(void) {
         switch (R) {
         	case 1: {
                 	if (POSEIDONSETH == 1)
-                    printf ("\n\n******************************\n       VOCE EH SETH!!!\n\n******************************\n\n");
+                    printf ("\n\n******************************\n       VOCE EH SETH!!!\n\n******************************\n\nSETH eh o deus egipcio da violencia, do ciume, do deserto, da guerra, da escuridao, das tempestades, dos animais e serpentes. Seth fazia de tudo para conseguir o controle dos deuses e ficar no lugar de seu irmao Osíris. Ele originalmente auxiliava Ra em sua eterna luta contra a serpente Apofis no barco solar. \nCaracteristicas: Guerreiro, Independente, Explosivo.\n\n");
                     if (THOROSIRIS == 1)
-                    printf ("\n\n******************************\n       VOCE EH THOR!!!\n\n******************************\n\n");            }
+                    printf ("\n\n******************************\n       VOCE EH THOR!!!\n\n******************************\n\nTHOR eh o deus nordico dos trovoes e das lutas. E filho de Odin e irmao de Loki. Thor usa como arma o martelo Mjolnir, e tem o cinto Megingjord, que lhe confere enormes forcas. Esta associado aos trovoes, relampagos, tempestades, forca e protecao da humanidade. \nCaracteristicas: Sociavel, Simples, Impaciente.\n\n");            }
                     break;
         	case 2:
                 	{
                 	if (POSEIDONSETH == 1)
-                    printf ("\n\n******************************\n       VOCE EH POSEIDON!!!\n\n******************************\n\n");
+                    printf ("\n\n******************************\n       VOCE EH POSEIDON!!!\n\n******************************\n\nPOSEIDON eh o deus grego da destruicao, terremotos, furacoes, cavalos, oceanos, mares e tempestades. Ele eh filho dos Titas Cronos e Reia, bem como um dos tres grandes. Fazia brotar fontes de agua da terra com seu tridente, mas quando ficava furioso provocava terremotos e tsunamis. \nCaracteristicas: Aventureiro, Corajoso, Explosivo.\n\n");
                     if (THOROSIRIS == 1)
-                    printf ("\n\n******************************\n       VOCE EH OSIRIS!!!\n\n******************************\n\n");          }
+                    printf ("\n\n******************************\n       VOCE EH OSIRIS!!!\n\n******************************\n\nOSIRIS era um deus da mitologia egipcia, associado a vegetacao e a vida no Alem. Foi o deus que trouxe a civilizacao para o Egito e um dos deuses mais populares do Antigo Egito. Marido de Isis e pai de Horus, era ele quem julgava os mortos na 'Sala das Duas Verdades', onde se procedia a pesagem do coracaoo. \nCaracteristicas: Calmo, Correto, Introvertido.\n\n");          }
                     break;         }
     fflush(stdin);
+    V = getchar();
 }
 
