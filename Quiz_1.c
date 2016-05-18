@@ -23,7 +23,13 @@ int main () {
                 	{
                 	GB=GB+2;
                     R = 0; }
-                    break;     }
+                    break;
+            default:
+                	{
+                	printf("\nSUA RESPOSTA NAO FOI COMPUTADA. DIGITE SEMPRE '1' PARA 'SIM' OU '2' PARA 'NAO'.\n"); }
+                    break;
+
+                    }
         fflush(stdin);
 
     printf("\nAS SUAS VIAGENS SAO SEMPRE BEM PLANEJADAS? \n(1)SIM. | (2)NAO.\n");
@@ -37,7 +43,13 @@ int main () {
                 	{
                 	GB=GB+2;
                     R = 0; }
-                    break;     }
+                    break;
+
+                    default:
+                	{
+                	printf("\nSUA RESPOSTA NAO FOI COMPUTADA. DIGITE SEMPRE '1' PARA 'SIM' OU '2' PARA 'NAO'.\n"); }
+                    break;    }
+
         fflush(stdin);
 
 
@@ -52,7 +64,13 @@ int main () {
                 	{
                 	GB=GB+2;
                     R = 0; }
-                    break;     }
+                    break;
+
+                    default:
+                	{
+                	printf("\nSUA RESPOSTA NAO FOI COMPUTADA. DIGITE SEMPRE '1' PARA 'SIM' OU '2' PARA 'NAO'.\n"); }
+                    break;    }
+
         fflush(stdin);
 
 
@@ -67,13 +85,20 @@ int main () {
                 	{
                 	GB=GB+4;
                     R = 0; }
-                    break;     }
+                    break;
+
+                    default:
+                	{
+                	printf("\n\n\nDESCULPE!\n\nAS SUAS RESPOSTAS NAO FORAM COMPUTADAS PORQUE VOCE NAO RESPONDEU CORRETAMENTE. COMECE NOVAMENTE!!! Obs.: DIGITE SEMPRE '1' PARA 'SIM' OU '2' PARA 'NAO'.\n"); }
+                    break;    }
+
+
         fflush(stdin);
 
 
     if  (GA > GB)
         Selecao_A();
-    else
+    if  (GA < GB)
         Selecao_B();
 
     return (0);
